@@ -8,7 +8,7 @@ I wanted to create a purely static site, but I didn't want to have to repeat the
 
 I also wanted to be able to simply deploy the application from the command line and therefore, I opted to use [surge](https://surge.sh/)
 
-[View Application](https://git .surge.sh/)
+[View Application](https://key-and-peele-sketches.surge.sh/)
 
 ## Requirements
 
