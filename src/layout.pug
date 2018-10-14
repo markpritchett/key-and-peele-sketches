@@ -1,0 +1,72 @@
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title
+            | Key and Peel - 
+            block title
+        style
+            :clean-css
+                body {
+                    font-family: sans-serif;
+                    background-color:#dad9d9;
+                }
+
+                .content {
+                    display: flex; 
+                    align-items: center; 
+                    justify-content: center;
+                }
+
+                h1 {
+                   
+                } 
+
+                nav {
+                    background-color: #fff;
+                    
+                    padding:10px';
+                }
+
+                a {
+                    display:block;
+                    font-size: 24px;
+                    background-color:#ffc107;
+                    color: #fff;
+                    text-decoration:none;
+                    text-transform: uppercase;
+                    border-bottom: 1px solid #eee;
+                    padding: 10px;
+                    text-align: center;
+                }
+
+                a:hover {
+                    background-color:#d19d00;
+                }
+
+                pre {
+                    font-family: sans-serif;
+                    line-height:1.5;
+                    padding:25px;
+                    width:100%;
+                    background-color:#fff;
+                    white-space: pre-wrap;
+                }
+
+                .back {
+                    display: inline-block;
+                    background-color: #9e9e9e;
+                }
+
+                .back:hover {
+                    background-color: #7e7e7e;
+                }
+
+                h1 a {
+                    margin-left:10px;
+                    display: inline-block;
+                }
+    body
+        .content
+            block content

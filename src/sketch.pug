@@ -1,0 +1,9 @@
+extends layout.pug
+block title
+    | #{sketch.title}
+block content
+    div
+        a(class='back' href='/') &larr; Back
+        h1=sketch.title 
+            a(href=sketch.videoLink) Watch Sketch
+        pre #{sketch.script}

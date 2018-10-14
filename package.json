@@ -1,0 +1,21 @@
+{
+  "name": "key-and-peele-sketches",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node build.js",
+    "watch": "nodemon build.js --watch src -e pug,json",
+    "browse": "browser-sync start -c bs-config.js",
+    "start": "concurrently \"npm:build\" \"npm:watch\" \"npm:browse\"",
+    "deploy": "surge ./dist key-and-peele-sketches.surge.sh"
+  },
+  "keywords": [],
+  "author": "Mark Pritchett",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.24.7",
+    "clean-css": "^4.2.1",
+    "concurrently": "^4.0.1",
+    "jstransformer-clean-css": "^2.1.0",
+    "pug": "^2.0.3"
+  }
+}

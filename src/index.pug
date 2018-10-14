@@ -1,0 +1,9 @@
+extends layout.pug
+block title
+    | Home
+block content
+    div
+        h1 Key and Peele Sketches
+        nav
+            each sketch in sketches
+                a(href=sketch.uri) #{sketch.title}
